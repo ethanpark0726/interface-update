@@ -1,6 +1,6 @@
 import csv
 
-with open(r'C:\Users\hpar0001\Documents\Projects\Script\Interface description Update\interface.csv', 'r') as data:
+with open('interface.csv', 'r') as data:
 
     data_reader = csv.reader(data)
     next(data_reader)
